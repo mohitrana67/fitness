@@ -1,2 +1,2 @@
-# fitness
-fitness application api
+# Fitness App
+Fitness application api
