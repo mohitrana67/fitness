@@ -12,6 +12,9 @@ def addFood(request):
     if request.method == "POST":
         body_unicode = request.body.decode('utf-8')
         body = json.loads(body_unicode)
+        name = ""
+        cateogory = ""
+        calories = ""
     return JsonResponse({
         "Data": data,
         "Message": message,

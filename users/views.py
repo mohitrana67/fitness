@@ -78,7 +78,6 @@ def login(request):
                         status = 200
                         data["token"] = token.key
                         message = "You are logged in!!!"
-                        log.debug(message)
                     except Exception as e:
                         token = Token.objects.get(user=user).key
                         status = 200
